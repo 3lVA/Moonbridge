@@ -1,0 +1,8 @@
+/*acknowledgemts*/
+h1,h2,h3{
+    text-transform: capitalize;
+}
+
+.contributors li{
+    text-transform: capitalize;
+}
