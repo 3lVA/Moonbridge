@@ -1,8 +1,51 @@
-/*acknowledgemts*/
-h1,h2,h3{
-    text-transform: capitalize;
+/*body*/
+body{
+    margin:0px;
 }
 
-.contributors li{
+h1 {
+  text-transform: capitalize;
+  text-align: center;
+}
+
+h2,
+h3 {
+  text-transform: capitalize;
+}
+
+main{
+    margin: 80px 20px 0px 20px;
+}
+
+/*nav bar*/
+.navBar{
+  position: fixed;
+  top: 0%;
+  width: 100%;
+}
+
+.navBar ul {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+  font-weight: bolder;
+  background-color: #211F60;
+}
+
+.navBar li {
+  float: left;
+}
+
+.navBar a{
+    text-decoration: none;
     text-transform: capitalize;
+    display: inline-block;
+    padding:20px;
+    color: white;
+}
+
+/*acknowledgemts*/
+.contributors li {
+  text-transform: capitalize;
 }
