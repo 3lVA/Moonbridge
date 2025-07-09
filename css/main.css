@@ -1,6 +1,6 @@
 /*body*/
-body{
-    margin:0px;
+body {
+  margin: 0px;
 }
 
 h1 {
@@ -13,12 +13,12 @@ h3 {
   text-transform: capitalize;
 }
 
-main{
-    margin: 80px 20px 0px 20px;
+main {
+  margin: 80px 20px 0px 20px;
 }
 
 /*nav bar*/
-.navBar{
+.navBar {
   position: fixed;
   top: 0%;
   width: 100%;
@@ -30,22 +30,99 @@ main{
   margin: 0px;
   overflow: hidden;
   font-weight: bolder;
-  background-color: #211F60;
+  background-color: #211f60;
 }
 
 .navBar li {
   float: left;
 }
 
-.navBar a{
-    text-decoration: none;
-    text-transform: capitalize;
-    display: inline-block;
-    padding:20px;
-    color: white;
+.navBar a {
+  text-decoration: none;
+  text-transform: capitalize;
+  display: inline-block;
+  padding: 20px;
+  color: white;
 }
+
+/*learn & review*/
+.mainContainer {
+  display: flex;
+  justify-content: center;
+  margin: 100px 30px;
+}
+
+.signContainer {
+  width: 60vw;
+  max-width: 960px;
+  height: 60vh;
+  max-height: 600px;
+  background-color: #c8c6ec;
+  border-radius: 30px;
+  border: 3px solid #211f60;
+  margin: 10px;
+}
+
+.signName {
+  text-align: center;
+  padding: 5px;
+  color: #211f60;
+}
+
+.sign {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+
+.sign img {
+  width: 50vw;
+  max-width: 800px;
+  height: 50vh;
+  max-height: 400px;
+  padding: 10px;
+}
+
+.captionsContainer {
+  background-color: #c8c6ec;
+  border-radius: 30px;
+  border: 3px solid #211f60;
+  width: 30vw;
+  max-width: 300px;
+  height: 60vh;
+  max-height: 600px;
+  margin: 10px;
+}
+
+.captionsContainer h2 {
+  text-align: center;
+  padding-top: 5px;
+  color: #211f60;
+}
+
+.captionsContainer p {
+  text-align: center;
+  color: #211f60;
+}
+
+.learnControls {
+  width: 60vw;
+  max-width: 960px;
+}
+
+.flashcardBtn {
+  background-color: #211f60;
+  color: white;
+  border-radius: 30px;
+  width: 30vw;
+  max-width: 450px;
+}
+
+/*learn*/
 
 /*acknowledgemts*/
 .contributors li {
   text-transform: capitalize;
 }
+
+
