@@ -2,6 +2,7 @@
 body {
   margin: 0px;
   color: #211f60;
+}
 
 h1 {
   text-transform: capitalize;
@@ -43,6 +44,30 @@ main {
   display: inline-block;
   padding: 20px;
   color: white;
+}
+
+/*homepage*/
+#tagline{
+  font-size: larger;
+  text-align: center;
+}
+
+.heroContainer{
+  display:flex;
+  background-color:#c8c6ec;
+  padding:20px;
+  border:#211f60 3px solid;
+  border-radius: 30px;
+}
+
+.heroContainer img{
+  width:100%;
+  float:left;
+  justify-content: center;
+}
+
+.heroContainer p{
+   padding:20px;
 }
 
 /*learn*/
