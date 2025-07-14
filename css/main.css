@@ -68,6 +68,8 @@ main {
 
 .heroContainer p{
    padding:20px;
+   font-size: larger;
+   font-weight: bolder;
 }
 
 /*learn*/
