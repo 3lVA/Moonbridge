@@ -61,6 +61,7 @@
 .learnControls {
   width: 60vw;
   max-width: 960px;
+  display: flex;
 }
 
 .flashcardBtn {
@@ -69,4 +70,14 @@
   border-radius: 30px;
   width: 30vw;
   max-width: 450px;
+  height:5vh;
+  max-height: 300px;
+}
+
+#next-btn{
+  float:left;
+}
+
+#prev-btn{
+  float:right;
 }
