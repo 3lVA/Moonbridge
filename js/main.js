@@ -1,1 +1,1 @@
-window.prompt("JS connected");
+window.alert("JS connected");
