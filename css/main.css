@@ -24,6 +24,11 @@ main {
   margin: 80px 20px 0px 20px;
 }
 
+a {
+  font-family: "DM serif Text";
+  color:#735092
+}
+
 /*nav bar*/
 .navBar {
   position: fixed;
@@ -74,11 +79,22 @@ main {
   justify-content: center;
 }
 
+.heroContainer h2{
+   padding:20px;
+   font-weight: bolder;
+   font-family: "DM serif Display";
+}
+
 .heroContainer p{
    padding:20px;
    font-size: larger;
    font-weight: bolder;
    font-family: "DM serif Text";
+}
+
+.deckGallery{
+  display: flex;
+  flex-direction: row;
 }
 
 .deckGallery figure{
@@ -87,17 +103,24 @@ main {
   border-radius: 30px;
   width: 30vh;
   max-width:300px;
+  margin:20px;
 }
 
-.deckGallery img{
-  width:25vh;
-  max-width:250px;
-  justify-content: center;
+.deckGallery figure img{
+  width:100%;
+  height: 80%;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
 }
 
 .deckGallery figcaption{
   font-family: "DM serif Text";
   text-align: center;
+}
+
+.inTheWorks{
+  font-size: larger;
+  font-family: "DM serif Text";
 }
 
 /*learn*/
@@ -109,11 +132,11 @@ main {
   max-width: 300px;
 }
 
-.deck img {
-  width: 80%;
+.deck figure img {
+  width: 100%;
   max-width: 300px;
-  border-top-left-radius: 30px;
-  border-top-right-radius: 30px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
 }
 
 .deck figcaption{
@@ -121,8 +144,16 @@ main {
   font-family: "DM serif Text";
 }
 
+.deck a{
+  text-decoration: none;
+}
+
+/*about us*/
+
+
+
 /*acknowledgemts*/
-.contributors li {
+/* .contributors li {
   text-transform: capitalize;
   font-family: "DM serif Text";
-}
+} */

@@ -58,26 +58,33 @@
   color: #211f60;
 }
 
+.captions {
+  font-family: "DM serif Text";
+}
+
 .learnControls {
-  width: 60vw;
-  max-width: 960px;
+  width: 100%;
   display: flex;
+  justify-content: center;
+  gap:10px;
+  flex-wrap: nowrap;
 }
 
 .flashcardBtn {
   background-color: #211f60;
   color: white;
   border-radius: 30px;
-  width: 30vw;
-  max-width: 450px;
-  height:5vh;
-  max-height: 300px;
+  width: 45%;
+  max-width: 400px;
+  height: 5vh;
+  font-family: "DM serif Text";
+  margin:5px;
 }
 
-#next-btn{
-  float:left;
+#next-btn {
+  float: left;
 }
 
-#prev-btn{
-  float:right;
+#prev-btn {
+  float: right;
 }
